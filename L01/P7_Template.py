@@ -1,5 +1,5 @@
 price = int(input("price: "))
-given = int(input("a customer gives"))
+given = int(input("a customer gives: "))
 change = given - price 
 changeList = [0, 0, 0, 0, 0, 0, 0]
 if change < 0:
