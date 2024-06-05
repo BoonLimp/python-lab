@@ -1,0 +1,11 @@
+crop = input("Crop: ")
+waterCon = int(input("Estimated annual water consumption (L/rai): "))
+area = int(input("Nation-wide growing area (rai): "))
+cropYield = int(input("Average crop yield per growing area (kg/rai): "))
+price = int(input("Estimated wholesale price (bath/kg): "))
+
+print(crop, " over ", area , "rai")
+print("Total water usage: ",waterCon*area/1000, "ML" )
+print("Total crop yield: ", cropYield*area )
+print("Total earing: ", cropYield*area*price/1000000, "mil. baht")
+print("a")
