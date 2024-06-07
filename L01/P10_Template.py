@@ -2,7 +2,7 @@ import math
 
 speed = float(input("Enter the ball speed (km/h): "))
 length = float(input("Enter the court length (m): "))
-weight = float(input("ENter the ball weight (g): "))
+weight = float(input("Enter the ball weight (g): "))
 time = 23.8/(speed*10/36)*2
 acceleration = ((speed*10/36)/time)
 force = acceleration*weight 
